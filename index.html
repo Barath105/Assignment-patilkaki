@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PatilKaki</title>
+    <link rel="icon" type="image/png" href="./images/pk.png">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+<body>
+
+    <!-- Nav Bar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="child-1">
+                <img src="./images/pk.png" alt="">
+                <span class="logo-text">Patil<span class="yellow-text">Kaki</span></span>
+            </div>
+            <div class="child-2">
+                <nav>
+                    <a href="#" id="home" class="active">Home</a>
+                    <a href="#">About</a>
+                    <div class="dropdown">
+                        <a href="#" onclick="toggleDropdown()">Category <span class="dropdown-icon">&#9660;</span></a>
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="#">Traditional</a>
+                            <a href="#">Healthy</a>
+                            <a href="#">Namkeen Specials</a>
+                            <a href="#">Healthy</a>
+                            <a href="#">Laddoos</a>
+                            <a href="#">Upvas Snacks</a>
+                        </div>
+                    </div>
+                    <a href="#">Make Order</a>
+                    <a href="#" class="button">Contact</a>
+                
+                </nav>
+                <div class="menu-icon" id="menuIcon">&#9776;</div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-bottom:50px"></div>
+
+    <!-- Image below Nav Bar -->
+
+    <div class="imagecontainer">
+        <div class="slider-container animate-on-load">
+            <div class="slider">
+                <img src="./images/img-1.png" alt="Slide 1">
+                <!-- Add more slides as needed -->
+            </div>
+        </div>
+        
+
+        <div class="about-content">
+            <h2 class="animated-text">Order Your Snacks<br><span class="sage-color">Easier and Faster.</span></h2>
+
+
+                <div class="paragraph-container">
+                    <p>Our home made snacks are the way to bring you quality binge-time experiences.
+                        We’ve stocked a range of yummy goodies that will enliven your taste buds and make you come back for more.
+                    </p>
+                </div>
+
+                <div class="menu-btn">Go to menu</div>
+                
+                
+        </div>
+        
+    </div>
+    <hr>
+    <!-- About -->
+<div style="margin-bottom: 50px;"></div>
+
+
+<section class="container-abt">
+    <div class="about-section">
+        <h2>About Us</h2>
+
+        <div class="image-with-text">
+            <img src="./images/pk.png" alt="" id="ourTeamImage" class="animated-image"/>
+            <div class="text-container">
+            </div>
+        </div>
+        
+        <p>The legend behind the yummy taste, Geeta Patil has been making home made snacks since 2017. 
+            The flavourful goodies cooked at home, for home members soon started receiving orders. Finally, 
+            Patil Kaki was born in 2020 as a result of the pandemic. While Kaki still continues to cook most of 
+            the delicious snacks, we have now grown into a happy team of 25 people. All committed to just one goal – serving 
+            you home made snacks made with love. We’ve shipped hundreds of snacks pan India, and we’re just getting started. That’s 
+            the magic of Patil Kaki
+
+            <div style="margin-bottom: 30px;"></div>
+
+            <br>
+            <strong><span class="taste-text" style="margin-bottom: 50px;">Feel the taste of PatilKaki:</span></strong>
+        </p>
+        
+            <p>Kaki’s snacks and sweets are the ultimate way to satisfy your hunger pangs. Whether it is a chai accompaniment,
+                or late night movie binge or pre-workout sugar cravings, we have something for everything. 
+                All our products are made freshly, and handmade to perfection without any preservatives or added flavours.
+            </p>   
+    </div>
+</section>
+
+<!-- Menu -->
+
+<section class="container-menu">
+
+
+    <div class="menu-section">
+        <h2>Menu</h2>
+
+        <div class="menu">
+
+            <div class="menu-item">
+                <img src="./images/img-1.png" alt="Food 1">
+                <h3>Menu Item 1</h3>
+                <button class="menu-button">Add to cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="./images/img-2.jpg" alt="Food 2">
+                <h3>Menu Item 2</h3>
+                <button class="menu-button">Add to cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="./images/img-4.jpg" alt="Food 2">
+                <h3>Menu Item 3</h3>
+                <button class="menu-button">Add to cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="./images/img-5.jpg" alt="Food 2">
+                <h3>Menu Item 4</h3>
+                <button class="menu-button">Add to cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="./images/img-6.jpg" alt="Food 2">
+                <h3>Menu Item 5</h3>
+                <button class="menu-button">Add to cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="./images/img-7.jpg" alt="Food 2">
+                <h3>Menu Item 6</h3>
+                <button class="menu-button">Add to cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="./images/img-8.jpg" alt="Food 2">
+                <h3>Menu Item 7</h3>
+                <button class="menu-button">Add to cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="./images/img-10.jpg" alt="Food 2">
+                <h3>Menu Item 8</h3>
+                <button class="menu-button">Add to cart</button>
+            </div>
+            
+        </div>
+        
+        
+    </div>
+</section>
+
+
+
+<div id="popup-form" class="popup-form">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Exclusive Offer: Get 15% Off!</h2>
+        <p>Enter your name and email below to receive your coupon code:</p>
+        <form id="offer-form">
+            <input type="text" id="username" name="username" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Get My Coupon</button>
+        </form>
+    </div>
+</div>
+
+
+<div class="dots-container">
+                    
+    <img src="./images/man.jpg" class="dots">
+    
+</div>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>If you have any questions or inquiries, feel free to reach out to us!</p>
+            <ul class="contact-info">
+                <li><i class="fas fa-envelope"></i> contact@patilkaki.com</li>
+                <li><i class="fas fa-phone"></i> +918591336124</li>
+                <li><i class="fas fa-map-marker-alt"></i> PATILKAKI ECOM VENTURES PVT LTD
+
+                    34/265, Anand Nagar,
+                    
+                    Vakola, Santacruz East,
+                    
+                    Mumbai 400055,
+                    
+                    Maharashtra , India</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+    <script src="./script/script.js"></script>
+    </body>
+</html>
+
+
+
+
